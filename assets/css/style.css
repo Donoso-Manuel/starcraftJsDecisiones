@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainHyperion{
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.mainStickers{
+    background-image: url('../img/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.mainClave{
+    background-image: url('../img/fondo3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.respuesta{
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 0.75rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+/*Index*/
+.mainIndex{
+    text-align: center;
+    background-image: url('../img/index.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.mainIndex h1 {
+    padding: 2rem;
+    text-shadow: 2px 2px 0 black;
+}
+.mainIndex p{
+    text-shadow: 2px 2px 0 black;
+}
+.listaOpciones {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.listaOpciones li {
+    margin: 1rem 0;
+}
+
+.listaOpciones a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #2980b9;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.listaOpciones a:hover {
+    background-color: #2980b9;
+    color: #ecf0f1;
+}
+
+.listaOpciones a:active {
+    background-color: #1c6691;
+    border-color: #145374;
+}
+/*Desafio Parte 1*/
+.hyperion{
+    text-align: center;
+}
+.hyperion h1{
+    font-size: 3rem;
+    padding-bottom: 0.75rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+.hyperion p{
+    color: white;
+    padding: 0.5rem;
+}
+.mainHyperion a{
+    font-size: 1.25rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+/*Desafio Parte 2*/
+.mainStickers h1{
+    font-size: 3rem;
+    padding-bottom: 0.75rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+.mainStickers p{
+    color: white;
+    padding: 0.5rem;
+}
+.mainStickers a{
+    font-size: 1.25rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+.infoSticker{
+    text-align: center;
+    padding: 1.5rem;
+}
+.infoSticker p{
+    padding: 1rem;
+}
+.Stickers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.seleccionsticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.imagenSticker{
+    width: 250px;
+    height: 200px;
+}
+.seleccionsticker input{
+    width: 40%;
+    text-align: center;
+}
+.cargaStickers{
+    text-align: center;
+    margin-top: 2rem;
+}
+.btnStickers{
+    padding: 1rem 3rem;
+}
+/*Desafio Parte 3*/
+.mainClave h1{
+    font-size: 3rem;
+    padding-bottom: 0.75rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+.mainClave p{
+    color: white;
+    padding: 0.5rem;
+}
+.mainClave a{
+    font-size: 1.25rem;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+.ingresoClave{
+    text-align: center;
+    padding: 0.5rem;
+}
+.digito1, .digito2, .digito3{
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btnClave{
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+}

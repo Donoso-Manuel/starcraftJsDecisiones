@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/503c64cb60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Starcraft II Stickers</title>
+</head>
+<body>
+    <div class="mainStickers">
+        <a href="index.html"><i class="fa-solid fa-arrow-rotate-left"></i>Volver</a>
+        <div class="infoSticker">
+            <h1>Elije cuantos sticker deseas de cada facción</h1>
+            <p>no puedes llevar mas de 10</p>
+        </div>
+        <div class="Stickers">
+            <div class="seleccionsticker">
+                <img src="./assets/img/zerg.jpg" alt="imagen Zerg" class="imagenSticker">
+                <input type="text" id="sticker1" class="numero" oninput="validarDigito()" maxlength="1">
+            </div>
+            <div class="seleccionsticker">
+                <img src="./assets/img/protoss.jpg" alt="imagen Protoss" class="imagenSticker">
+                <input type="text" id="sticker2" class="numero" oninput="validarDigito()" maxlength="1">
+            </div>
+            <div class="seleccionsticker">
+                <img src="./assets/img/terran.jpg" alt="Imagen Terran" class="imagenSticker">
+                <input type="text" id="sticker3" class="numero" oninput="validarDigito()" maxlength="1">
+            </div>  
+        </div>
+        <div class="cargaStickers">
+            <p class="respuestaStickers respuesta"></p>
+            <button class="btnStickers" onclick="contarStickers()" disabled>Cargar Stickers</button>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
